@@ -5,4 +5,8 @@ class Student < User
     @knowledge << lesson 
   end 
   
+  def knowledge 
+    @knowledge 
+  end 
+  
 end
