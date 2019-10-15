@@ -24,5 +24,5 @@ steve.learn(avi.teach)
 
 jim.learn(avi.teach)
 
-puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
-puts "Here's what Jim learned from Avi: '#{jim.knowledge}'"
+puts "Steve just learned this important knowledge: #{steve.knowledge.first} from Avi. He also learned this: #{steve.knowledge.last}."
+puts "Here's what Jim learned from Avi: #{jim.knowledge.first}"
