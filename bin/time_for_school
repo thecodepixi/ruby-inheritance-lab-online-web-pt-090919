@@ -14,11 +14,12 @@ avi.last_name = "Flombaum"
 
 jim = User.new
 jim.first_name = "James"
-jim.last_name = "
-
+jim.last_name = "Dean" 
 
 some_knowledge = avi.teach 
 
 steve.learn(some_knowledge)
+
+jim.learn(avi.teach) 
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
